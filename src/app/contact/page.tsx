@@ -21,7 +21,7 @@ export default function Contact() {
             </div>
              <div>
               <h3 className="text-sm uppercase tracking-widest text-[#1a1a1a] font-semibold mb-1">Studio</h3>
-              <p className="text-[#666] font-light">Available worldwide.<br/>Based in Los Angeles, CA.</p>
+              <p className="text-[#666] font-light">Available Nationwide.<br/>Based in Indore, India.</p>
             </div>
           </div>
         </div>
