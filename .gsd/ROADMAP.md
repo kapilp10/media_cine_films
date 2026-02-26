@@ -7,7 +7,7 @@
 - [x] Initial Scaffolding (Next.js + Tailwind CSS)
 - [x] UI Architecture (Nakula Aesthetics Toolkit)
 - [x] Core Pages Content
-- [ ] Advanced Features MVP (Booking, Portal)
+- [x] Advanced Features MVP (Booking, Portal)
 
 ## Phases
 
@@ -22,7 +22,7 @@
 **Requirements**: REQ-02, REQ-03, REQ-04
 
 ### Phase 3: Advanced Functionality MVP
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Integrate a booking calendar widget and set up a basic, secure Client Portal MVP.
 **Requirements**: REQ-05, REQ-06
 
