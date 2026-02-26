@@ -1,4 +1,4 @@
-﻿# ROADMAP.md
+# ROADMAP.md
 
 > **Current Phase**: 1
 > **Milestone**: v1.0
@@ -6,7 +6,7 @@
 ## Must-Haves
 - [x] Initial Scaffolding (Next.js + Tailwind CSS)
 - [x] UI Architecture (Nakula Aesthetics Toolkit)
-- [ ] Core Pages Content
+- [x] Core Pages Content
 - [ ] Advanced Features MVP (Booking, Portal)
 
 ## Phases
@@ -17,7 +17,7 @@
 **Requirements**: REQ-01
 
 ### Phase 2: Core Pages Development
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Build out the Home, Works, About, Contact, and Services pages with placeholder media.
 **Requirements**: REQ-02, REQ-03, REQ-04
 
