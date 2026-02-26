@@ -32,7 +32,7 @@ export default function FadeIn({ children, delay = 0, direction = "up", classNam
       }}
       viewport={{ once: true, margin: "-10%" }}
       transition={{
-        duration: 0.8,
+        duration: 0.5,
         delay: delay,
         ease: [0.21, 0.47, 0.32, 0.98] // Clean, subtle ease-out
       }}
