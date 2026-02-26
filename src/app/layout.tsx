@@ -4,8 +4,24 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'MediaCine Films - Wedding Cinematography',
-  description: 'Premium Wedding Cinematography Website',
+  title: 'MediaCine Films - Luxury Wedding Cinematography',
+  description: 'A boutique wedding cinematography studio specializing in timeless, emotive, and editorial films. Based in Los Angeles, available worldwide.',
+  openGraph: {
+    title: 'MediaCine Films - Luxury Wedding Cinematography',
+    description: 'A boutique wedding cinematography studio specializing in timeless, emotive, and editorial films.',
+    url: 'https://mediacinefilms.com',
+    siteName: 'MediaCine Films',
+    images: [
+      {
+        url: 'https://mediacinefilms.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'MediaCine Films Portfolio',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({

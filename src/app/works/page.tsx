@@ -1,3 +1,4 @@
+import FadeIn from "@/components/FadeIn";
 
 export default function Works() {
   const projects = [
@@ -25,7 +26,7 @@ export default function Works() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-x-12 gap-y-24">
           
           {/* Project 1 - Full Width/Hero scale */}
-          <div className="md:col-span-12 group cursor-pointer">
+          <FadeIn delay={0.1} className="md:col-span-12 group cursor-pointer">
             <div className={`w-full ${projects[0].type} bg-stone-200 mb-6 overflow-hidden`}>
               <div className="w-full h-full bg-stone-300 transform group-hover:scale-105 transition-transform duration-1000"></div>
             </div>
@@ -33,52 +34,52 @@ export default function Works() {
                 <h3 className="text-3xl font-serif text-[#1a1a1a]">{projects[0].title}</h3>
                 <p className="text-[#666] text-sm uppercase tracking-widest">{projects[0].location}</p>
             </div>
-          </div>
+          </FadeIn>
 
           {/* Project 2 - Left column */}
-          <div className="md:col-span-5 md:mt-20 group cursor-pointer">
+          <FadeIn delay={0.2} className="md:col-span-5 md:mt-20 group cursor-pointer">
             <div className={`w-full ${projects[1].type} bg-stone-200 mb-6 overflow-hidden`}>
               <div className="w-full h-full bg-stone-300 transform group-hover:scale-105 transition-transform duration-1000"></div>
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a]">{projects[1].title}</h3>
             <p className="text-[#666] text-sm mt-2">{projects[1].location}</p>
-          </div>
+          </FadeIn>
 
           {/* Project 3 - Right column */}
-          <div className="md:col-span-6 md:col-start-7 group cursor-pointer">
+          <FadeIn delay={0.4} className="md:col-span-6 md:col-start-7 group cursor-pointer">
              <div className={`w-full ${projects[2].type} bg-stone-200 mb-6 overflow-hidden`}>
               <div className="w-full h-full bg-stone-300 transform group-hover:scale-105 transition-transform duration-1000"></div>
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a]">{projects[2].title}</h3>
             <p className="text-[#666] text-sm mt-2">{projects[2].location}</p>
-          </div>
+          </FadeIn>
 
           {/* Project 4 - Full width offset */}
-          <div className="md:col-span-10 md:col-start-2 group cursor-pointer">
+          <FadeIn delay={0.2} className="md:col-span-10 md:col-start-2 group cursor-pointer">
              <div className={`w-full ${projects[3].type} bg-stone-200 mb-6 overflow-hidden`}>
               <div className="w-full h-full bg-stone-300 transform group-hover:scale-105 transition-transform duration-1000"></div>
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a]">{projects[3].title}</h3>
             <p className="text-[#666] text-sm mt-2">{projects[3].location}</p>
-          </div>
+          </FadeIn>
           
            {/* Project 5 - Left column wide */}
-           <div className="md:col-span-7 group cursor-pointer">
+           <FadeIn delay={0.4} className="md:col-span-7 group cursor-pointer">
              <div className={`w-full ${projects[4].type} bg-stone-200 mb-6 overflow-hidden`}>
               <div className="w-full h-full bg-stone-300 transform group-hover:scale-105 transition-transform duration-1000"></div>
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a]">{projects[4].title}</h3>
             <p className="text-[#666] text-sm mt-2">{projects[4].location}</p>
-          </div>
+          </FadeIn>
 
           {/* Project 6 - Right column narrow */}
-          <div className="md:col-span-4 md:col-start-9 md:-mt-32 group cursor-pointer">
+          <FadeIn delay={0.2} className="md:col-span-4 md:col-start-9 md:-mt-32 group cursor-pointer">
              <div className={`w-full ${projects[5].type} bg-stone-200 mb-6 overflow-hidden`}>
               <div className="w-full h-full bg-stone-300 transform group-hover:scale-105 transition-transform duration-1000"></div>
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a]">{projects[5].title}</h3>
             <p className="text-[#666] text-sm mt-2">{projects[5].location}</p>
-          </div>
+          </FadeIn>
 
         </div>
 
