@@ -37,8 +37,8 @@ export default function About() {
           </div>
 
           <FadeIn delay={0.5} className="mt-16 border-t border-[#e5e5e5] pt-8">
-            <h3 className="text-2xl font-serif text-[#1a1a1a]">Julian & Clara</h3>
-            <p className="text-sm uppercase tracking-widest text-[#666] mt-2">Founders & Lead Directors</p>
+            <h3 className="text-2xl font-serif text-[#1a1a1a]">Mohit Paliwal</h3>
+            <p className="text-sm uppercase tracking-widest text-[#666] mt-2">Founder & Lead Director</p>
           </FadeIn>
         </div>
 
