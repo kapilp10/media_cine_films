@@ -8,7 +8,7 @@ export default function Home() {
       <section className="w-full min-h-[90vh] flex flex-col justify-center items-center px-12 py-32 text-center text-[#1a1a1a]">
         <FadeIn delay={0.1}>
           <h1 className="text-6xl md:text-8xl font-serif mb-8 tracking-wide leading-tight">
-            MediaCine <br /> Films.
+            MediaCine Films.
           </h1>
         </FadeIn>
         
